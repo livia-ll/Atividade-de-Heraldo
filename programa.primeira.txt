@@ -1,0 +1,16 @@
+programa 
+{
+	funcao inicio()
+	{
+	
+	 real base, altura, area
+	 escreva("\ninforme a base do triângulo")
+	 leia(base)
+	escreva("\ninforme a altura do triângulo:")
+	leia(altura)
+	
+	area = (base * altura) /2
+	
+	escreva("a área do triiângulo é:"+area)
+	}
+}

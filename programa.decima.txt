@@ -1,0 +1,15 @@
+programa
+{
+	funcao inicio ()
+	{
+		real vi 
+		real juros
+		real vf 
+		escreva ("Qual o valor?")
+		leia (vi) 
+		juros = (5 * vi) / 100 
+		vf = vi + juros 
+		limpa() 
+		escreva ("Valor inicial: R$"+vi+"\nJuros ganhos: R$"+juros+"\nValor final: R$"+vf)
+	}
+}

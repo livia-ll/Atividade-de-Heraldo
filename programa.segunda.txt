@@ -1,0 +1,12 @@
+programa
+{
+	funcao inicio ()
+	{
+		real num, dobro, triplo
+		escreva ("informe o número")
+		leia (num) 
+		dobro = num * 2
+		triplo = num * 3
+		escreva ("o dobro do número informado é"+dobro+"\nO triplo do número informado é"+triplo)
+	}
+}

@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		
+	
+    real vr,vc
+
+     escreva("Digite um valor em reais:")
+	 leia(vr)
+     
+	  vc = vr  * 100
+	  
+	  escreva("O valor em centavos é "+vc+"centavos")
+	}
+      }

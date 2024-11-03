@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio ()
+	{
+		real n
+		real nq
+		real nc
+		escreva ("Escolha um número")
+		leia (n)
+		nq = n * n 
+		nc = n * n * n 
+		limpa()
+		escreva ("Seu número ao quadrado é "+nq)
+		escreva ("\nSeu número ao cubo é "+nc)
+	
+	}
+}

@@ -1,0 +1,12 @@
+programa 
+{
+	funcao inicio()
+	{
+		real s
+		real sf
+		escreva("Qual o seu salário?")
+		leia (s)
+		sf = s + s/10
+		escreva("Seu salário final é de:R$"+sf)
+}
+}

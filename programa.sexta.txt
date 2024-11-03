@@ -1,0 +1,17 @@
+programa
+{
+	funcao inicio ()
+	{
+		real c 
+		real l    
+		real a
+		escreva ("Qual o comprimento do seu retângulo?") 
+		leia (c) 
+		limpa()
+		escreva ("Qual a largura do seu retângulo?") 
+		leia (l) 
+		a = c * l 
+		limpa() 
+		escreva ("A área do seu retângulo é "+a)
+	}
+}
